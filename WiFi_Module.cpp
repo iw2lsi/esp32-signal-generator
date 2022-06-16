@@ -25,8 +25,12 @@ bool WiFi_Module::TryConnect(String ssid, String password, IPAddress local_ip, I
         }
 
         wifi_connected = ctr >= 0;
+        
     }
 
+     IPAddress ip = WiFi.localIP();
+     Serial.println(ip);
+ 
     return wifi_connected;
 }
 

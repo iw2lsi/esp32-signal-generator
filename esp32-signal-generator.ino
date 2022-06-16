@@ -47,9 +47,9 @@ SOFTWARE.
     #include <SPIFFS.h>
 #endif
 
-// #define FORMAT_FILESYSTEM  // Uncomment to format the file system (only necessary once before first data upload)
-// #define SHOW_PASSWORDS  // Uncomment to show passwords in debug serial output
-// #define FORCE_AP  // Uncomment to force device into access-point mode at startup (don't try to connect to WiFi)
+//#define FORMAT_FILESYSTEM  // Uncomment to format the file system (only necessary once before first data upload)
+//#define SHOW_PASSWORDS  // Uncomment to show passwords in debug serial output
+//#define FORCE_AP  // Uncomment to force device into access-point mode at startup (don't try to connect to WiFi)
 
 WiFi_Module* wifi;
 

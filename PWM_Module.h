@@ -11,4 +11,3 @@ class PWM_Module {
 };
 
 #endif
-
